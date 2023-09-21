@@ -1,0 +1,13 @@
+#! /bin/bash
+
+File=/dev/mycddfile
+
+createcddnode()
+{
+	echo $1
+	if [ -f $File ]
+	then
+    		rm $File
+	fi
+        mknod $File c $1 0
+}

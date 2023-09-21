@@ -1,0 +1,1 @@
+savedcmd_/home/shubham/DD/cdd_01_new_mathod/Module.symvers :=  scripts/mod/modpost       -o /home/shubham/DD/cdd_01_new_mathod/Module.symvers -T /home/shubham/DD/cdd_01_new_mathod/modules.order -i Module.symvers -e 

@@ -1,0 +1,1 @@
+savedcmd_/home/shubham/DD/cdd_01_new_mathod/mycdd.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/shubham/DD/cdd_01_new_mathod/mycdd.ko /home/shubham/DD/cdd_01_new_mathod/mycdd.o /home/shubham/DD/cdd_01_new_mathod/mycdd.mod.o;  true

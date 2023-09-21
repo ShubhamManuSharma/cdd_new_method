@@ -1,0 +1,20 @@
+#! /bin/bash
+
+mainMenu()
+{
+	echo "__MAIN MENU__"
+	echo "1: Build Char Driver"		
+	echo "2: Insert Char Driver"		
+	echo "3: Check Driver Meg (Dmesg)"		
+	echo "4: Create Driver Node"		
+	echo "5: Build App"		
+	echo "6: Test Driver with App"		
+	echo "7: Remove Driver"
+	echo "0: Exit App"
+
+	echo "Please Enter your choice"
+	read resp
+
+	return $resp
+}
+

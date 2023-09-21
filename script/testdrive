@@ -1,0 +1,52 @@
+#! /bin/bash
+
+source ./mainMenu
+source ./buildcdd
+source ./insertcdd
+source ./checkcddmsg
+source ./buildapp 
+source  ./createcddnode  
+source	./removecdd  
+source	./runapp
+source	./unlinkcddnode
+
+
+while true
+do	
+	mainMenu
+	case $? in
+		0)
+			exit 0
+			;;
+		1)
+			buildcdd;
+			;;
+		2)
+			echo "Enter no of device"
+			read nod
+			insertcdd $nod;
+			;;
+		3)
+			checkcddmsg;
+			;;
+		4)
+			echo "Enter Major No"
+			read majorno
+			createcddnode $majorno;
+			;;
+		5)
+			buildapp;
+			;;
+		6)
+			runapp;
+			;;
+		7)
+			removecdd;
+			;;
+		8)
+			unlinkcddnode;
+			;;
+		*)
+			echo "Invalid Choice"
+	esac
+done

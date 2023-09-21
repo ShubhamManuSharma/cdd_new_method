@@ -1,0 +1,13 @@
+#! /bin/bash
+
+buildcdd()
+{
+	echo 
+	if ( make -C .. )
+	then
+		echo "Driver Build Success"
+	else
+		echo "ERROR: Build Filed"
+		read
+	fi
+}

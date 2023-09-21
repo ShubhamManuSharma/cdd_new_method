@@ -1,0 +1,35 @@
+[  166.589292] create_scull: End : Scull Create Success: Item generated : 5 
+[  166.589295] writeDevice current headp found.. moving for write : no of item : 5
+[  166.589299] writeDevice Copy_from_user success : [0] bytes write, nocsw [0]  
+[  166.589303] writeDevice Copy_from_user success : [0] bytes write, nocsw [4]  
+[  166.589307] writeDevice Copy_from_user success : [0] bytes write, nocsw [8]  
+[  166.589310] writeDevice Copy_from_user success : [0] bytes write, nocsw [12]  
+[  166.589313] writeDevice : [0] full, next item move 
+[  166.589316] writeDevice Copy_from_user successfully write, [16] bytes  
+[  166.589319] writeDevice Copy_from_user success : [0] bytes write, nocsw [16]  
+[  166.589322] writeDevice Copy_from_user success : [0] bytes write, nocsw [20]  
+[  166.589326] writeDevice Copy_from_user success : [0] bytes write, nocsw [24]  
+[  166.589329] writeDevice Copy_from_user success : [0] bytes write, nocsw [28]  
+[  166.589332] writeDevice : [0] full, next item move 
+[  166.589334] writeDevice Copy_from_user successfully write, [32] bytes  
+[  166.589337] writeDevice Copy_from_user success : [0] bytes write, nocsw [32]  
+[  166.589340] writeDevice Copy_from_user success : [0] bytes write, nocsw [36]  
+[  166.589343] writeDevice Copy_from_user success : [0] bytes write, nocsw [40]  
+[  166.589346] writeDevice Copy_from_user success : [0] bytes write, nocsw [44]  
+[  166.589349] writeDevice : [0] full, next item move 
+[  166.589352] writeDevice Copy_from_user successfully write, [48] bytes  
+[  166.589394] writeDevice Copy_from_user success : [0] bytes write, nocsw [48]  
+[  166.589397] writeDevice Copy_from_user success : [0] bytes write, nocsw [52]  
+[  166.589400] writeDevice Copy_from_user success : [0] bytes write, nocsw [56]  
+[  166.589403] writeDevice Copy_from_user success : [0] bytes write, nocsw [60]  
+[  166.589406] writeDevice : [0] full, next item move 
+[  166.589409] writeDevice Copy_from_user successfully write, [64] bytes  
+[  166.589412] writeDevice Copy_from_user success : [0] bytes write, nocsw [64]  
+[  166.589415] writeDevice Copy_from_user success : [0] bytes write, nocsw [68]  
+[  166.589418] writeDevice Copy_from_user success : [0] bytes write, nocsw [72]  
+[  166.589421] writeDevice Copy_from_user success : [0] bytes write, nocsw [76]  
+[  166.589424] writeDevice : [0] full, next item move 
+[  166.589426] writeDevice Copy_from_user successfully write, [80] bytes  
+[  166.589429] writeDevice End 
+[  166.589439] releaseDevice Begin 
+

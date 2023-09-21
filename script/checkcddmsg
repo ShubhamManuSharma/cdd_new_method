@@ -1,0 +1,14 @@
+#! /bin/bash
+
+checkcddmsg()
+{
+	dmesg
+	read
+	cat /proc/devices 
+	read
+	cat /proc/modules 
+	read
+	#cat /proc/kmsg
+	#read
+	return $?
+}

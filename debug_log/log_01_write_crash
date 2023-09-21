@@ -1,0 +1,26 @@
+[  684.253754] myDevInit Begin
+[  684.253757] myDevInit: Device Registeration Success, register_chrdev Major No : 511, Minor No : 0 
+[  684.253759] myDevInit size_of_device: 128
+[  684.253760] myDevInit no_of_quant   : 4
+[  684.253761] myDevInit size_of_quant : 4
+[  684.253762] myDevInit: Device Registeration Success, Minor No : 0 
+[  684.253763] myDevInit: Device Registeration Success, Minor No : 1 
+[  684.253764] myDevInit: Device Registeration Success, Minor No : 2 
+[  684.253765] myDevInit End
+[  700.507740] openDevice Begin 
+[  700.507749] openDevice End 
+[  700.508029] writeDevice Begin 
+[  700.508036] create_scull: Begin 
+[  700.508039] create_scull: no of item : 1 and no of req : 3 no of quant : 4
+[  700.508046] create_scull Head Item memory allocation
+[  700.508049] create_scull Item [1] memory allocation
+[  700.508053] create_scull: End : Scull Create Success 
+[  700.508056] writeDevice Copy_from_user success : [0] bytes write 
+[  700.508059] writeDevice Copy_from_user success : [0] bytes write 
+[  700.508062] writeDevice Copy_from_user success : [0] bytes write 
+[  700.508065] usercopy: Kernel memory overwrite attempt detected to null address (offset 0, size 4)!
+[  700.508093] ------------[ cut here ]------------
+[  700.508096] kernel BUG at mm/usercopy.c:102!
+[  700.508110] invalid opcode: 0000 [#1] PREEMPT SMP PTI
+[  700.508119] CPU: 7 PID: 4935 Comm: app Tainted: G           OE      6.4.2 #3
+

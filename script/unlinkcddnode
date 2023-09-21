@@ -1,0 +1,6 @@
+#! /bin/bash
+
+unlinkcddnode()
+{
+	rm -f /dev/mycddfile
+}

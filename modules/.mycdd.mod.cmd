@@ -1,0 +1,1 @@
+savedcmd_/home/shubham/DD/cdd_01_new_mathod/mycdd.mod := printf '%s\n'   initfunc.o exitfunc.o openDevice.o releaseDevice.o writeDevice.o readDevice.o creat_scull.o | awk '!x[$$0]++ { print("/home/shubham/DD/cdd_01_new_mathod/"$$0) }' > /home/shubham/DD/cdd_01_new_mathod/mycdd.mod

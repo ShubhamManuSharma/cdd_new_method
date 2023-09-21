@@ -1,0 +1,11 @@
+#! /bin/bash
+
+buildapp()
+{
+	if ( make -C ../app )
+	then
+		echo "Build App success"
+	else
+		echo "App build faled"
+	fi
+}
